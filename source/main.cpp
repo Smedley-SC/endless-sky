@@ -400,7 +400,7 @@ void GameLoop(PlayerInfo &player, const Conversation &conversation, const string
 
 			if(isFastForward && inFlight)
 			{
-				skipFrame = (skipFrame + 1) % 3;
+				skipFrame = (skipFrame + 1) % 9;
 				if(skipFrame)
 					continue;
 			}
